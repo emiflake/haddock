@@ -24,7 +24,7 @@ body {
 }
 
 #content a {
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
 p {
@@ -563,10 +563,6 @@ table.info {
   margin-left: 0;
 }
 
-#interface td.src {
-  white-space: nowrap;
-}
-
 /* @end */
 
 /* @group Main Content */
@@ -670,7 +666,6 @@ table.info {
   font-style: normal;
   font-weight: bold;
   margin: 1px 0;
-  white-space: nowrap;
 }
 
 .subs ul li > .doc {
